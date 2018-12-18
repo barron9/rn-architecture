@@ -1,7 +1,7 @@
 import { TabNavigator } from "react-navigation";
 import * as screenNames from "../screen_names";
-import Settings from "features/settings/containers";
-import { UserProfile } from "features/user_profile/containers";
+import Settings from "../../features/settings/containers";
+import { UserProfile } from "../../features/user_profile/containers";
 
 export default TabNavigator(
   {
